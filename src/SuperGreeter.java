@@ -14,6 +14,9 @@ public class SuperGreeter {
         String navn = keyboard.next();
         System.out.println("Hej " + navn);
 
+        System.out.print("Hvad er din alder så? ");
+        int askAboutage = keyboard.nextInt();
+        System.out.println("Hej igen " + navn + " som er " + askAboutage);
     }
 
 
