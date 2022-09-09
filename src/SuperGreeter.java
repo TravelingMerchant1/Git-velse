@@ -9,9 +9,10 @@ public class SuperGreeter {
         SuperGreeter sg = new SuperGreeter();
         sg.start();
 
-        System.out.println("Hvad er dit navn?");
+        System.out.print("Hvad er dit navn? ");
         Scanner keyboard = new Scanner(System.in);
         String navn = keyboard.next();
+        System.out.println("Hej " + navn);
 
     }
 
